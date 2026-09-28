@@ -93,14 +93,14 @@ export function ContributionsSection() {
   return (
     <section
       id="contributions"
-      className="pt-6 sm:pt-8 pb-12 sm:pb-14 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full select-none"
+      className="py-0 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full select-none"
       aria-label="Contributions"
     >
       {/* Outer Card Container with Raised Block Layer */}
-      <div className="relative w-full pb-2.5 sm:pb-3 select-none">
-        {/* Underlying Raised Block Layer (#F5F5F5 fill, 32px radius, no border, 8px Y-offset) */}
+      <div className="relative w-full pb-1.5 sm:pb-2 select-none">
+        {/* Underlying Raised Block Layer (#F5F5F5 fill, 32px radius, no border, subtle Y-offset) */}
         <div
-          className="absolute inset-0 translate-y-2 sm:translate-y-2.5 rounded-[32px] bg-[#F5F5F5] pointer-events-none"
+          className="absolute inset-0 translate-y-1.5 rounded-[32px] bg-[#F5F5F5] pointer-events-none"
           aria-hidden="true"
         />
 

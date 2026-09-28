@@ -8,7 +8,7 @@ export function BuildingStuffSection() {
   return (
     <section
       id="side-quests"
-      className="pt-6 sm:pt-8 pb-8 sm:pb-10 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full text-center select-none"
+      className="py-0 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full text-center select-none"
       aria-label="Building Stuff"
     >
       <div className="space-y-2 max-w-2xl mx-auto">

@@ -62,7 +62,7 @@ export function SelectedWorkSection() {
   return (
     <section
       id="work"
-      className="pt-8 sm:pt-10 pb-12 sm:pb-14 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full select-none"
+      className="py-0 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full select-none"
       aria-label="Selected Work"
     >
       {/* Section Header with Decreased Spacing to Grid */}
@@ -80,17 +80,17 @@ export function SelectedWorkSection() {
         {SELECTED_PROJECTS.map((project) => (
           <div
             key={project.id}
-            className="group relative w-full h-full pb-2 select-none flex flex-col"
+            className="relative w-full h-full pb-1.5 select-none flex flex-col"
           >
-            {/* Underlying Raised Block Layer (#F5F5F5 fill, 32px radius, no border, 8px Y-offset) */}
+            {/* Underlying Raised Block Layer (#F5F5F5 fill, 32px radius, no border, subtle Y-offset) */}
             <div
-              className="absolute inset-0 translate-y-2 rounded-[32px] bg-[#F5F5F5] pointer-events-none transition-transform duration-300 group-hover:translate-y-2.5"
+              className="absolute inset-0 translate-y-1.5 rounded-[32px] bg-[#F5F5F5] pointer-events-none"
               aria-hidden="true"
             />
 
             {/* Top Main Card (consistent style: 32px radius, 1px solid #E6E6E6 border) */}
             <div
-              className="relative w-full h-full bg-white rounded-[32px] p-5 sm:p-6 flex flex-col justify-between transition-shadow duration-300 hover:shadow-[0_12px_36px_rgba(0,0,0,0.05)]"
+              className="relative w-full h-full bg-white rounded-[32px] p-5 sm:p-6 flex flex-col justify-between"
               style={{
                 border: "1px solid #E6E6E6",
               }}
@@ -143,7 +143,7 @@ export function SelectedWorkSection() {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2.5 h-10 px-5 rounded-full bg-black text-white text-[13px] font-medium hover:bg-neutral-800 transition-colors shadow-xs group-hover:shadow-md cursor-pointer shrink-0"
+                      className="inline-flex items-center gap-2.5 h-10 px-5 rounded-full bg-black text-white text-[13px] font-medium hover:bg-neutral-800 transition-colors shadow-xs cursor-pointer shrink-0"
                       aria-label={`Read Case Study for ${project.title}`}
                     >
                       <Folder className="w-3.5 h-3.5 fill-white text-white shrink-0" />
@@ -152,7 +152,7 @@ export function SelectedWorkSection() {
                   ) : (
                     <Link
                       href={project.link}
-                      className="inline-flex items-center gap-2.5 h-10 px-5 rounded-full bg-black text-white text-[13px] font-medium hover:bg-neutral-800 transition-colors shadow-xs group-hover:shadow-md cursor-pointer shrink-0"
+                      className="inline-flex items-center gap-2.5 h-10 px-5 rounded-full bg-black text-white text-[13px] font-medium hover:bg-neutral-800 transition-colors shadow-xs cursor-pointer shrink-0"
                       aria-label={`Read Case Study for ${project.title}`}
                     >
                       <Folder className="w-3.5 h-3.5 fill-white text-white shrink-0" />

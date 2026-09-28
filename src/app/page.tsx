@@ -8,13 +8,13 @@ import { ContactCTASection } from "@/components/cta/ContactCTASection";
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col gap-[80px] pb-[80px]">
       <Hero />
       <SelectedWorkSection />
       <JourneySection />
       <BuildingStuffSection />
       <ContributionsSection />
       <ContactCTASection />
-    </>
+    </div>
   );
 }

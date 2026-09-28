@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex flex-col justify-center min-h-[calc(100vh-4rem)] lg:h-[calc(100vh-4rem)] lg:max-h-[760px] py-4 sm:py-6 lg:py-4 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full select-none"
+      className="relative flex flex-col justify-center pt-24 sm:pt-28 pb-0 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full select-none"
       aria-label="Hero Section"
     >
       {/* =========================================================================
@@ -98,10 +98,10 @@ export function Hero() {
             - Figma Badge: 60px floating badge overlapping bottom-right of image
             ----------------------------------------------------------------------- */}
         <div className="w-full lg:w-auto flex justify-center lg:justify-end shrink-0 pt-2 lg:pt-0">
-          <div className="relative w-full max-w-[420px] sm:w-[420px] pb-3 select-none">
+          <div className="relative w-full max-w-[420px] sm:w-[420px] pb-2 select-none">
             {/* Underlying Raised Block Layer (#F5F5F5 fill, 32px radius, no border) */}
             <div
-              className="absolute inset-0 translate-y-2.5 sm:translate-y-3 rounded-[32px] bg-[#F5F5F5] pointer-events-none"
+              className="absolute inset-0 translate-y-1.5 sm:translate-y-2 rounded-[32px] bg-[#F5F5F5] pointer-events-none"
               aria-hidden="true"
             />
 

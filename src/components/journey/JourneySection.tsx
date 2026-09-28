@@ -128,7 +128,7 @@ export function JourneySection() {
   return (
     <section
       id="journey"
-      className="pt-8 sm:pt-10 pb-10 sm:pb-12 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full select-none"
+      className="py-0 px-6 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full select-none"
       aria-label="My journey as a designer"
     >
       {/* Section Header */}
